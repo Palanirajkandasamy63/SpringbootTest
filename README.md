@@ -8,3 +8,8 @@ and after this
 localhost:8080/h2/console
 paste the jdbc url-->jdbc:h2:mem:testdb
 then you can access it 
+
+
+To add data in to values we can use/course/main/resource data.sql
+
+
