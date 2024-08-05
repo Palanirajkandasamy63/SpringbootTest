@@ -28,7 +28,7 @@ public class CourseController {
     public Course getCourse1(@PathVariable long id) {
         Optional<Course> course = repository.findById(id);
         if(course.isEmpty()){
-            throw new RuntimeException("course not found with id " + id);
+            throw new RuntimeException("course is not found with id " + id);
         }
          return course.get();
         //return new Course(1, "learn Microservices", "Raj");
